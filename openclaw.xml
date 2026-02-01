@@ -14,8 +14,16 @@
     
     [b]Configuration:[/b]
     - [b]WebUI:[/b] http://[IP]:[PORT:18789]
+    - [b]Gateway Token:[/b] You MUST set a secure token in the template settings to authenticate.
     - [b]Config Path:[/b] /mnt/user/appdata/openclaw/config
-    - [b]Workspace Path:[/b] /mnt/user/appdata/openclaw/workspace
+
+    [b]First-Run Pairing (Critical):[/b]
+    When you first access the WebUI, it will ask to pair.
+    1. Open the Unraid Console for this container.
+    2. Run: [code]openclaw devices list[/code]
+    3. Copy the [b]Request ID[/b] (e.g., 0344cff1-...).
+    4. Run: [code]openclaw devices approve <REQUEST_ID>[/code]
+    5. The WebUI will automatically refresh and grant access.
 
     [b]Initial Setup (CLI):[/b]
     OpenClaw may require initial onboarding via CLI. Access the container console and run:
@@ -86,7 +94,7 @@
   <Config Name="Config Directory" Target="/home/node/.openclaw" Default="/mnt/user/appdata/openclaw/config" Mode="rw" Description="Persistent configuration storage." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/openclaw/config</Config>
   <Config Name="Workspace Directory" Target="/home/node/workspace" Default="/mnt/user/appdata/openclaw/workspace" Mode="rw" Description="Directory for agent workspaces." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/openclaw/workspace</Config>
   <Config Name="Docker Socket (Sandboxing)" Target="/var/run/docker.sock" Default="/var/run/docker.sock" Mode="rw" Description="Required for Agent Sandboxing. Maps the host Docker socket." Type="Path" Display="advanced" Required="false" Mask="false">/var/run/docker.sock</Config>
-  <Config Name="Gateway Token" Target="OPENCLAW_GATEWAY_TOKEN" Default="" Mode="" Description="Optional token for gateway authentication." Type="Variable" Display="advanced" Required="false" Mask="true"/>
+  <Config Name="Gateway Token" Target="OPENCLAW_GATEWAY_TOKEN" Default="" Mode="" Description="Required security token for the gateway. Set this to a secure secret." Type="Variable" Display="always" Required="true" Mask="true"/>
   <Config Name="PUID" Target="PUID" Default="99" Mode="" Description="Container User ID" Type="Variable" Display="advanced" Required="true" Mask="false">99</Config>
   <Config Name="PGID" Target="PGID" Default="100" Mode="" Description="Container Group ID" Type="Variable" Display="advanced" Required="true" Mask="false">100</Config>
 </Container>
