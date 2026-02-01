@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>OpenClaw</Name>
-  <Repository>gitlab.johnpwhite.com:5050/johner/unraid-dkr-openclaw:latest</Repository>
+  <Repository>192.168.1.38:5050/johner/unraid-dkr-openclaw:latest</Repository>
   <Registry>https://gitlab.johnpwhite.com/johner/unraid-dkr-openclaw/container_registry</Registry>
   <Network>bridge</Network>
   <MyIP/>
@@ -9,30 +9,27 @@
   <Privileged>false</Privileged>
   <Support>https://github.com/openclaw/openclaw/issues</Support>
   <Project>https://openclaw.ai</Project>
-  <Overview>
-    OpenClaw is an open-source autonomous AI agent.
-    
-    [b]Configuration:[/b]
-    - [b]WebUI:[/b] http://[IP]:[PORT:18789]
-    - [b]Gateway Token:[/b] You MUST set a secure token in the template settings to authenticate.
-    - [b]Config Path:[/b] /mnt/user/appdata/openclaw/config
-
-    [b]First-Run Pairing (Critical):[/b]
-    When you first access the WebUI, it will ask to pair.
-    1. Open the Unraid Console for this container.
-    2. Run: [code]openclaw devices list[/code]
-    3. Copy the [b]Request ID[/b] (e.g., 0344cff1-...).
-    4. Run: [code]openclaw devices approve <REQUEST_ID>[/code]
-    5. The WebUI will automatically refresh and grant access.
-
-    [b]Initial Setup (CLI):[/b]
-    OpenClaw may require initial onboarding via CLI. Access the container console and run:
-    [code]openclaw-cli onboarding[/code]
-    (Or the equivalent setup command provided by the image).
-
-    [b]Agent Sandboxing:[/b]
-    To allow OpenClaw to spawn sandboxed environments (Docker-in-Docker style), you must enable the Docker Socket mount below.
-  </Overview>
+  <Overview>OpenClaw is an open-source autonomous AI agent.&#13;
+&#13;
+[b]Configuration:[/b]&#13;
+- [b]WebUI:[/b] http://[IP]:[PORT:18789]&#13;
+- [b]Gateway Token:[/b] You MUST set a secure token in the template settings to authenticate.&#13;
+- [b]Config Path:[/b] /mnt/user/appdata/openclaw/config&#13;
+&#13;
+[b]First-Run Pairing (Critical):[/b]&#13;
+When you first access the WebUI, it will ask to pair.&#13;
+1. Open the Unraid Console for this container.&#13;
+2. Run: [code]openclaw devices list[/code]&#13;
+3. Copy the [b]Request ID[/b] (e.g., 0344cff1-...).&#13;
+4. Run: [code]openclaw devices approve &lt;REQUEST_ID&gt;[/code]&#13;
+5. The WebUI will automatically refresh and grant access.&#13;
+&#13;
+[b]Initial Setup (CLI):[/b]&#13;
+OpenClaw may require initial onboarding via CLI. Access the container console and run:&#13;
+[code]openclaw onboarding[/code]&#13;
+&#13;
+[b]Agent Sandboxing:[/b]&#13;
+To allow OpenClaw to spawn sandboxed environments (Docker-in-Docker style), you must enable the Docker Socket mount below.</Overview>
   <Category>AI: Tools: Productivity:</Category>
   <WebUI>http://[IP]:[PORT:18789]/</WebUI>
   <TemplateURL/>
@@ -43,9 +40,7 @@
   <DateInstalled/>
   <DonateText/>
   <DonateLink/>
-  <Description>
-    OpenClaw - The AI Agent that does the work for you.
-  </Description>
+  <Description>OpenClaw - The AI Agent that does the work for you.</Description>
   <Networking>
     <Mode>bridge</Mode>
     <Publish>
