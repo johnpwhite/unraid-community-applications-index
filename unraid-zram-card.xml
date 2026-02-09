@@ -7,8 +7,8 @@
   <Tag>unraid-zram-card.plg</Tag>
   <Category>Tools: System:</Category>
   <Icon>https://raw.githubusercontent.com/johnpwhite/unraid-plugin-zram/main/src/unraid-zram-card/unraid-zram-card.png</Icon>
-  <Support>https://github.com/johnpwhite/unraid-plugin-zram/issues</Support>
-  <Project>https://github.com/johnpwhite/unraid-plugin-zram</Project>
+  <Support>https://forums.unraid.net/topic/196763-new-plugin-created-zram/</Support>
+  <Project>https://docs.kernel.org/admin-guide/blockdev/zram.html</Project>
   <Overview>
     Unraid ZRAM Card provides a beautiful and functional dashboard card for monitoring and managing ZRAM swap devices.
     
