@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <PluginURL>https://gitlab.johnpwhite.com/johner/unraid-zram-card/-/raw/master/unraid-zram-card.plg</PluginURL>
+  <PluginURL>https://github.com/johnpwhite/unraid-plg-zram/raw/main/unraid-zram-card.plg</PluginURL>
   <PluginAuthor>John White</PluginAuthor>
   <Beta>False</Beta>
   <Category>Tools: System:</Category>
