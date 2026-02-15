@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <PluginURL>https://gitlab.johnpwhite.com/johner/unraid-plg-copilot/-/raw/main/unraid-copilot.plg</PluginURL>
+  <Plugin>true</Plugin>
+  <Beta>true</Beta>
+  <Category>Tools:System Status:Information</Category>
+  <Name>Unraid CoPilot</Name>
+  <Author>John White</Author>
+  <Description>AI assistant for Unraid. Ask natural language questions about your server, docker containers, and system settings.</Description>
+  <Support>https://gitlab.johnpwhite.com/johner/unraid-plg-copilot</Support>
+  <Icon>https://gitlab.johnpwhite.com/johner/unraid-plg-copilot/-/raw/main/src/icons/unraid-copilot.png</Icon>
+</Containers>
