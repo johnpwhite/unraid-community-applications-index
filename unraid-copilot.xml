@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Version 2026.02.16.47 -->
 <Containers>
   <PluginURL>https://gitlab.johnpwhite.com/johner/unraid-plg-copilot/-/raw/main/unraid-copilot.plg</PluginURL>
-  <PluginAuthor>John White</PluginAuthor>
-  <Beta>False</Beta>
-  <Category>Tools:System Utilities:</Category>
-  <Name>Unraid Copilot</Name>
-  <Description>Native AI agent for monitoring and controlling Unraid.</Description>
-  <Overview>Unraid Copilot is a zero-dependency AI assistant integrated directly into the Unraid WebUI. It uses a secure ReAct loop and a Go-based MCP daemon to interact with the Unraid GraphQL API, allowing you to monitor system health and perform management tasks via a simple chat interface.</Overview>
+  <Plugin>true</Plugin>
+  <Beta>true</Beta>
+  <Category>Tools:System Status:Information</Category>
+  <Name>Unraid CoPilot</Name>
+  <Author>John White</Author>
+  <Description>AI assistant for Unraid. Ask natural language questions about your server, docker containers, and system settings.</Description>
+  <Support>https://gitlab.johnpwhite.com/johner/unraid-plg-copilot</Support>
   <Icon>https://gitlab.johnpwhite.com/johner/unraid-plg-copilot/-/raw/main/src/icons/unraid-copilot.png</Icon>
 </Containers>
