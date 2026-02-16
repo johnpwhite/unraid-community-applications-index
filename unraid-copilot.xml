@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Version>2026.02.16.53</Version>
+  <Version>2026.02.16.54</Version>
   
-  <MD5>4CF4F1B0BC5C7C9B20A364BD10EBABA4</MD5>
+  <MD5>92155D5B7D83F2C650B0AA54BC82A2BF</MD5>
   <PluginURL>https://gitlab.johnpwhite.com/johner/unraid-plg-copilot/-/raw/main/unraid-copilot.plg</PluginURL>
   <Plugin>true</Plugin>
   <Beta>true</Beta>
