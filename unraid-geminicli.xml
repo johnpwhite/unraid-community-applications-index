@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <PluginURL>https://gitlab.johnpwhite.com/johner/unraid-plg-geminicli/-/raw/master/unraid-geminicli.plg</PluginURL>
+  <PluginURL>https://github.com/johnpwhite/unraid-plg-geminicli/raw/main/unraid-geminicli.plg</PluginURL>
   <PluginAuthor>John White</PluginAuthor>
   <Beta>True</Beta>
   <Category>Tools:System</Category>
