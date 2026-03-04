@@ -4,7 +4,7 @@
   <PluginAuthor>John White</PluginAuthor>
   <Beta>True</Beta>
   <Category>Tools:System</Category>
-  <Name>Unraid AICliAgents CLI</Name>
+  <Name>Unraid AI CLI Agents</Name>
   <Description>Integrated AICliAgents CLI for AI-assisted Unraid server management.</Description>
   <Overview>
     Unraid AICliAgents CLI brings the power of AICli's AI-assisted management directly to your Unraid WebUI.
