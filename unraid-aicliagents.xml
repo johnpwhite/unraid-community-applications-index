@@ -15,5 +15,5 @@
     - Human-in-the-Loop (HITL) safety for critical operations.
   </Overview>
   <Support>https://forums.unraid.net/topic/XXXXXX-new-plugin-aicli-cli/</Support>
-  <Project>https://github.com/google/aicli-cli</Project>
+  <Project>https://github.com/johnpwhite/unraid-plg-aicliagents</Project>
 </Containers>
