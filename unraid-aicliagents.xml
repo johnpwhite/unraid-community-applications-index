@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <PluginURL>https://gitlab.johnpwhite.com/johner/unraid-plg-aicliagents/-/raw/master/unraid-aicliagents.plg</PluginURL>
+  <PluginURL>https://github.com/johnpwhite/unraid-plg-aicliagents/raw/main/unraid-aicliagents.plg</PluginURL>
   <PluginAuthor>John White</PluginAuthor>
   <Beta>True</Beta>
   <Category>Tools:System</Category>
