@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <PluginURL>https://github.com/johnpwhite/unraid-plg-aicliagents/raw/main/unraid-aicliagents.plg</PluginURL>
+  <PluginURL>https://raw.githubusercontent.com/johnpwhite/unraid-plg-aicliagents/main/unraid-aicliagents.plg</PluginURL>
   <PluginAuthor>John White</PluginAuthor>
   <Beta>True</Beta>
   <Category>Tools:System</Category>
@@ -15,6 +15,6 @@
     - Human-in-the-Loop (HITL) safety for critical operations.
   </Overview>
   <Support>https://forums.unraid.net/topic/XXXXXX-new-plugin-aicli-cli/</Support>
-  <Icon>https://github.com/johnpwhite/unraid-plg-aicliagents/raw/main/src/unraid-aicliagents.png</Icon>
+  <Icon>https://raw.githubusercontent.com/johnpwhite/unraid-plg-aicliagents/main/src/unraid-aicliagents.png</Icon>
   <Project>https://github.com/google/aicli-cli</Project>
 </Containers>
