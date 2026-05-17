@@ -2,7 +2,6 @@
 <Containers>
   <PluginURL>https://raw.githubusercontent.com/johnpwhite/unraid-plg-aicliagents/main/unraid-aicliagents.plg</PluginURL>
   <PluginAuthor>John White</PluginAuthor>
-  <Beta>True</Beta>
   <Category>Tools:System</Category>
   <Name>Unraid AI CLI Agents</Name>
   <Description>Integrated AICliAgents CLI for AI-assisted Unraid server management.</Description>
