@@ -4,10 +4,10 @@
   <PluginAuthor>John White</PluginAuthor>
   <Beta>False</Beta>
   <Category>Tools:System</Category>
-  <Name>Unraid ZRAM Card</Name>
+  <Name>ZRAM Compressed Memory</Name>
   <Description>Monitor and manage ZRAM swap devices directly from your Unraid dashboard.</Description>
   <Overview>
-    Unraid ZRAM Card provides a beautiful and functional dashboard card for monitoring and managing ZRAM swap devices.
+    ZRAM Compressed Memory provides a beautiful and functional dashboard card for monitoring and managing ZRAM swap devices.
     
     [b]Features:[/b]
     - Real-time ZRAM usage monitoring with historical charts.
