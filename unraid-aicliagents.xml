@@ -14,6 +14,6 @@
     - Human-in-the-Loop (HITL) safety for critical operations.
   </Overview>
   <Support>https://forums.unraid.net/topic/197460-plugin-support-unraid-tab-for-ai-cli-coding-agents-gemini-cli-claude-code-opencode-kilo-code-pi-coder-codex-cli-factory-droid-cli-copilot-nano-coder/</Support>
-  <Icon>https://raw.githubusercontent.com/johnpwhite/unraid-plg-aicliagents/main/src/assets/icons/google-gemini.png</Icon>
+  <Icon>https://raw.githubusercontent.com/johnpwhite/unraid-plg-aicliagents/main/src/assets/icons/google-gemini.png?v=2026.09.15.08</Icon>
   <Project>https://github.com/johnpwhite/unraid-plg-aicliagents</Project>
 </Containers>
