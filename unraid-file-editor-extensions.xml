@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <PluginURL>https://raw.githubusercontent.com/johnpwhite/unraid-plg-file_editor_extentions/main/unraid-file-editor-extensions.plg</PluginURL>
+  <PluginAuthor>John White</PluginAuthor>
+  <Category>Tools:System</Category>
+  <Name>Unraid Markdown &amp; HTML File Editor</Name>
+  <Description>Edit and preview Markdown and HTML files directly from Shares &gt; Browse.</Description>
+  <Overview>
+Unraid Markdown &amp; HTML File Editor replaces the built-in text editor for Markdown and HTML files opened from Shares &gt; Browse.
+
+[b]Features:[/b]
+- CodeMirror source editor for .md, .markdown, .html, and .htm files.
+- Edit, split, and live-preview modes, including a distraction-free full-page mode.
+- Sandboxed HTML previews: scripts can run without access to the Unraid parent page.
+- CSRF validation, path allowlisting, and atomic saves.
+- Other file types continue to use the native Dynamix viewer and editor.
+  </Overview>
+  <ExtraSearchTerms>file editor text editor code editor markdown editor html editor web editor shares browse</ExtraSearchTerms>
+  <Support>https://github.com/johnpwhite/unraid-plg-file_editor_extentions/issues</Support>
+  <Project>https://github.com/johnpwhite/unraid-plg-file_editor_extentions</Project>
+</Containers>
